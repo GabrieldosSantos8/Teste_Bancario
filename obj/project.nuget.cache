@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oxwt59whYIM=",
+  "dgSpecHash": "NT9TSOA5N9Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\TesteItau\\TesteItau.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\VS_CODE\\Teste_Banco\\TesteItau\\TesteItau.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.13\\microsoft.entityframeworkcore.8.0.13.nupkg.sha512",

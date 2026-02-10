@@ -1,0 +1,3 @@
+# pack-refs with: peeled fully-peeled sorted 
+c7f1104bf358d4943eb93f69ed1d582181427653 refs/heads/master
+8b200b5b33bfb89e5881e0d1eaf6db72d4be496b refs/heads/remove-secrets

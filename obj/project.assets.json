@@ -1378,11 +1378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\TesteItau\\TesteItau.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\VS_CODE\\Teste_Banco\\TesteItau\\TesteItau.csproj",
       "projectName": "TesteItau",
-      "projectPath": "C:\\Users\\gabri\\TesteItau\\TesteItau.csproj",
+      "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\VS_CODE\\Teste_Banco\\TesteItau\\TesteItau.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\TesteItau\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\VS_CODE\\Teste_Banco\\TesteItau\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
