@@ -1,4 +1,4 @@
-# TesteItau
+# Teste_Bancario
 
 Este projeto é uma API criada com .NET Core (ASP.NET Core Web API).
 
