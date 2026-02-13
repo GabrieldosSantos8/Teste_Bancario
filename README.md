@@ -1,21 +1,27 @@
-# Teste_Bancario
+# 🏦 Teste Itau - API de Operações Financeiras
 
-Este projeto é uma API criada com .NET Core (ASP.NET Core Web API).
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-## Como executar
+API desenvolvida para simular o controle de operações de ativos financeiros, permitindo a gestão de compra e venda de ativos e consulta de posições.
 
-1. Certifique-se de ter o .NET SDK instalado.
-2. No terminal, execute:
-   ```
-dotnet run
-   ```
-3. Acesse a API em `https://localhost:5001` ou `http://localhost:5000`.
+## 🛠️ Tecnologias e Boas Práticas
+- **ASP.NET Core 8.0** (Web API)
+- **Entity Framework Core** (ORM)
+- **Migrations** para versionamento de banco de dados
+- **Swagger/OpenAPI** para documentação interativa
+- **Programação Assíncrona** (Async/Await)
 
-## Estrutura
-- `Controllers/` — Controladores da API
-- `Program.cs` — Ponto de entrada da aplicação
-- `Startup.cs` — Configuração de serviços e pipeline
+## 🏗️ Arquitetura
+O projeto segue o padrão MVC (Model-View-Controller) focado em API, com separação clara de responsabilidades:
+- **Models:** Definição das entidades e regras de banco (Data Annotations).
+- **Controllers:** Exposição dos endpoints REST.
+- **Data:** Contexto do Entity Framework e mapeamento de tabelas.
 
-## Desenvolvimento
-- Para compilar: `dotnet build`
-- Para rodar testes (se houver): `dotnet test`
+## ⚙️ Como Executar
+1. **Configurar o Banco:** No arquivo `appsettings.json`, ajuste a sua ConnectionString com suas credenciais do MySQL.
+2. **Migrações:**
+   Execute o comando abaixo para criar as tabelas no seu banco:
+   ```bash
+   dotnet ef database update
