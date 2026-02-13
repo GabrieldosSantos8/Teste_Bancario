@@ -1,27 +1,26 @@
 # 🏦 Teste Itau - API de Operações Financeiras
 
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-8.0-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-API desenvolvida para simular o controle de operações de ativos financeiros, permitindo a gestão de compra e venda de ativos e consulta de posições.
+API desenvolvida para simular o controle de operações de ativos financeiros, permitindo a gestão de compra e venda e a consulta de posições consolidadas.
 
 ## 🛠️ Tecnologias e Boas Práticas
 - **ASP.NET Core 8.0** (Web API)
 - **Entity Framework Core** (ORM)
 - **Migrations** para versionamento de banco de dados
-- **Swagger/OpenAPI** para documentação interativa
+- **Swagger/OpenAPI** para documentação e testes de endpoints
 - **Programação Assíncrona** (Async/Await)
 
 ## 🏗️ Arquitetura
-O projeto segue o padrão MVC (Model-View-Controller) focado em API, com separação clara de responsabilidades:
-- **Models:** Definição das entidades e regras de banco (Data Annotations).
-- **Controllers:** Exposição dos endpoints REST.
-- **Data:** Contexto do Entity Framework e mapeamento de tabelas.
+O projeto utiliza a estrutura padrão do .NET com separação de responsabilidades:
+- **Models:** Entidades do banco de dados com Data Annotations.
+- **Controllers:** Endpoints REST para operações de CRUD.
+- **Data:** Contexto do Entity Framework (`AppDbContext`) e mapeamento de tabelas.
 
 ## ⚙️ Como Executar
-1. **Configurar o Banco:** No arquivo `appsettings.json`, ajuste a sua ConnectionString com suas credenciais do MySQL.
-2. **Migrações:**
-   Execute o comando abaixo para criar as tabelas no seu banco:
+
+1. **Clonar o Repositório:**
    ```bash
-   dotnet ef database update
+   git clone [https://github.com/GabrieldosSantos8/TesteItau.git](https://github.com/GabrieldosSantos8/TesteItau.git)
