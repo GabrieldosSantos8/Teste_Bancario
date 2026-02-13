@@ -24,10 +24,8 @@ namespace TesteItau
         [Column("dt_operacao")]
         public DateTime DtOperacao { get; set; }
         [ForeignKey("FkUsuario")]
-        [NotMapped]
         public Usuario? Usuario { get; set; }
         [ForeignKey("FkAtivo")]
-        [NotMapped]
         public Ativo? Ativo { get; set; }
     }
 }
